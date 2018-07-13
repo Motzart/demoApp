@@ -1,5 +1,0 @@
-deployment:
-  prod:
-    branch: ci
-    heroku:
-      appname: demoApp
