@@ -17,6 +17,7 @@ jobs:
     working_directory: ~/circleci-demo-workflows
     environment:
       HEROKU_APP: "demoApp"
+      HEROKU_API_KEY: HEROKU_API_KEY
     steps:
       - checkout
       - run:
