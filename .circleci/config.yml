@@ -35,8 +35,8 @@ jobs:
         
       # run tests!
       - run: yarn test
-deployment:
-  prod:
-    branch: ci
-    heroku:
-      appname: demoApp      
+  deployment:
+    prod:
+      branch: ci
+      heroku:
+        appname: demo123-123      
